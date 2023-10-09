@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>NO</Source>
+  <Module>ObsPy 1.3.1</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2023-05-08T10:38:55.681717Z</Created>
+  <Network code="XX">
+    <Station code="AMA0" startDate="1993-05-26T00:00:00.000000Z">
+      <Latitude unit="DEGREES">69.742</Latitude>
+      <Longitude unit="DEGREES">61.655</Longitude>
+      <Elevation unit="METERS">200.0</Elevation>
+      <Site>
+        <Name>Amderma Array, Arkhangelskaya Russia</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:55:48.000000Z</CreationDate>
+      <Channel code="SZ" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.742</Latitude>
+        <Longitude unit="DEGREES">61.655</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+      <Channel code="SN" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.742</Latitude>
+        <Longitude unit="DEGREES">61.655</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+      <Channel code="SE" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.742</Latitude>
+        <Longitude unit="DEGREES">61.655</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="AMA1" startDate="1993-05-26T00:00:00.000000Z">
+      <Latitude unit="DEGREES">69.7427</Latitude>
+      <Longitude unit="DEGREES">61.655</Longitude>
+      <Elevation unit="METERS">200.0</Elevation>
+      <Site>
+        <Name>Amderma Array, Arkhangelskaya Russia</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:55:49.000000Z</CreationDate>
+      <Channel code="SZ" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.7427</Latitude>
+        <Longitude unit="DEGREES">61.655</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="AMA2" startDate="1993-05-26T00:00:00.000000Z">
+      <Latitude unit="DEGREES">69.7423</Latitude>
+      <Longitude unit="DEGREES">61.6555</Longitude>
+      <Elevation unit="METERS">200.0</Elevation>
+      <Site>
+        <Name>Amderma Array, Arkhangelskaya Russia</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:55:49.000000Z</CreationDate>
+      <Channel code="SZ" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.7423</Latitude>
+        <Longitude unit="DEGREES">61.6555</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="AMA3" startDate="1993-05-26T00:00:00.000000Z">
+      <Latitude unit="DEGREES">69.7417</Latitude>
+      <Longitude unit="DEGREES">61.654</Longitude>
+      <Elevation unit="METERS">200.0</Elevation>
+      <Site>
+        <Name>Amderma Array, Arkhangelskaya Russia</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:55:50.000000Z</CreationDate>
+      <Channel code="SZ" startDate="1993-05-26T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">69.7417</Latitude>
+        <Longitude unit="DEGREES">61.654</Longitude>
+        <Elevation unit="METERS">200.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>S-500 and Nanometrics RD6</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

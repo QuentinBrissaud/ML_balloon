@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>NO</Source>
+  <Module>ObsPy 1.3.1</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2023-05-08T10:38:58.325924Z</Created>
+  <Network code="XX">
+    <Station code="BRA0" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6348</Latitude>
+      <Longitude unit="DEGREES">-47.9915</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:15.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6348</Latitude>
+        <Longitude unit="DEGREES">-47.9915</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRA1" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6335</Latitude>
+      <Longitude unit="DEGREES">-47.9915</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:15.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6335</Latitude>
+        <Longitude unit="DEGREES">-47.9915</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRA2" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6356</Latitude>
+      <Longitude unit="DEGREES">-47.9902</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:16.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6356</Latitude>
+        <Longitude unit="DEGREES">-47.9902</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRA3" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6356</Latitude>
+      <Longitude unit="DEGREES">-47.9928</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:17.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6356</Latitude>
+        <Longitude unit="DEGREES">-47.9928</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRB1" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6303</Latitude>
+      <Longitude unit="DEGREES">-47.9915</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:17.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6303</Latitude>
+        <Longitude unit="DEGREES">-47.9915</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRB2" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6335</Latitude>
+      <Longitude unit="DEGREES">-47.9872</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:18.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6335</Latitude>
+        <Longitude unit="DEGREES">-47.9872</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRB3" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6386</Latitude>
+      <Longitude unit="DEGREES">-47.9888</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:19.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6386</Latitude>
+        <Longitude unit="DEGREES">-47.9888</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRB4" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6386</Latitude>
+      <Longitude unit="DEGREES">-47.9942</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:19.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6386</Latitude>
+        <Longitude unit="DEGREES">-47.9942</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRB5" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6335</Latitude>
+      <Longitude unit="DEGREES">-47.9958</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:20.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6335</Latitude>
+        <Longitude unit="DEGREES">-47.9958</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC1" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6213</Latitude>
+      <Longitude unit="DEGREES">-47.9915</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:21.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6213</Latitude>
+        <Longitude unit="DEGREES">-47.9915</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC2" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6265</Latitude>
+      <Longitude unit="DEGREES">-47.981</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:22.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6265</Latitude>
+        <Longitude unit="DEGREES">-47.981</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC3" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6379</Latitude>
+      <Longitude unit="DEGREES">-47.9784</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:22.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6379</Latitude>
+        <Longitude unit="DEGREES">-47.9784</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC4" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6471</Latitude>
+      <Longitude unit="DEGREES">-47.9856</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:23.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6471</Latitude>
+        <Longitude unit="DEGREES">-47.9856</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC5" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6471</Latitude>
+      <Longitude unit="DEGREES">-47.9974</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:24.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6471</Latitude>
+        <Longitude unit="DEGREES">-47.9974</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC6" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6379</Latitude>
+      <Longitude unit="DEGREES">-48.0046</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:24.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6379</Latitude>
+        <Longitude unit="DEGREES">-48.0046</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+    <Station code="BRC7" startDate="2005-04-11T00:00:00.000000Z">
+      <Latitude unit="DEGREES">-15.6265</Latitude>
+      <Longitude unit="DEGREES">-48.002</Longitude>
+      <Elevation unit="METERS">999.0</Elevation>
+      <Site>
+        <Name>Brasilia Array, Brasilia Brasil</Name>
+      </Site>
+      <CreationDate>2019-10-25T12:58:25.000000Z</CreationDate>
+      <Channel code="BZ" startDate="2005-04-11T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">-15.6265</Latitude>
+        <Longitude unit="DEGREES">-48.002</Longitude>
+        <Elevation unit="METERS">999.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>CMG-ESP and DM24</Type>
+        </Sensor>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

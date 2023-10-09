@@ -1,0 +1,4440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2">
+  <Source>NO</Source>
+  <Module>ObsPy 1.3.1</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2023-05-08T10:39:01.428786Z</Created>
+  <Network code="GR">
+    <Description>German Regional Seismic Network, BGR Hannover</Description>
+    <Station code="GEA0" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.835994</Latitude>
+      <Longitude unit="DEGREES">13.700943</Longitude>
+      <Elevation unit="METERS">1021.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:41.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.835994</Latitude>
+        <Longitude unit="DEGREES">13.700943</Longitude>
+        <Elevation unit="METERS">1021.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEA1" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83551</Latitude>
+      <Longitude unit="DEGREES">13.70295</Longitude>
+      <Elevation unit="METERS">1014.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:09.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83551</Latitude>
+        <Longitude unit="DEGREES">13.70295</Longitude>
+        <Elevation unit="METERS">1014.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEA2" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83781</Latitude>
+      <Longitude unit="DEGREES">13.70092</Longitude>
+      <Elevation unit="METERS">1066.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:03.000000Z</CreationDate>
+      <Channel code="SHN" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83781</Latitude>
+        <Longitude unit="DEGREES">13.70092</Longitude>
+        <Elevation unit="METERS">1066.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHE" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83781</Latitude>
+        <Longitude unit="DEGREES">13.70092</Longitude>
+        <Elevation unit="METERS">1066.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83781</Latitude>
+        <Longitude unit="DEGREES">13.70092</Longitude>
+        <Elevation unit="METERS">1066.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEA3" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83422</Latitude>
+      <Longitude unit="DEGREES">13.69901</Longitude>
+      <Elevation unit="METERS">1024.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:53.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83422</Latitude>
+        <Longitude unit="DEGREES">13.69901</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEB1" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83811</Latitude>
+      <Longitude unit="DEGREES">13.7065</Longitude>
+      <Elevation unit="METERS">1025.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:25.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83811</Latitude>
+        <Longitude unit="DEGREES">13.7065</Longitude>
+        <Elevation unit="METERS">1025.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEB2" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.8387</Latitude>
+      <Longitude unit="DEGREES">13.69765</Longitude>
+      <Elevation unit="METERS">1103.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:33.000000Z</CreationDate>
+      <Channel code="BHZ" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8387</Latitude>
+        <Longitude unit="DEGREES">13.69765</Longitude>
+        <Elevation unit="METERS">1103.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>ESP-3V,ESP-3V/g=2000,BB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>696136000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8387</Latitude>
+        <Longitude unit="DEGREES">13.69765</Longitude>
+        <Elevation unit="METERS">1103.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>ESP-3V,ESP-3V/g=2000,BB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>696136000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEB3" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83618</Latitude>
+      <Longitude unit="DEGREES">13.69491</Longitude>
+      <Elevation unit="METERS">1063.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:45.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83618</Latitude>
+        <Longitude unit="DEGREES">13.69491</Longitude>
+        <Elevation unit="METERS">1063.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEB4" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83204</Latitude>
+      <Longitude unit="DEGREES">13.69785</Longitude>
+      <Elevation unit="METERS">1002.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:22.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83204</Latitude>
+        <Longitude unit="DEGREES">13.69785</Longitude>
+        <Elevation unit="METERS">1002.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83204</Latitude>
+        <Longitude unit="DEGREES">13.69785</Longitude>
+        <Elevation unit="METERS">1002.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEB5" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83382</Latitude>
+      <Longitude unit="DEGREES">13.70501</Longitude>
+      <Elevation unit="METERS">984.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:59.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83382</Latitude>
+        <Longitude unit="DEGREES">13.70501</Longitude>
+        <Elevation unit="METERS">984.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC1" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.84045</Latitude>
+      <Longitude unit="DEGREES">13.70891</Longitude>
+      <Elevation unit="METERS">1044.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:37.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.84045</Latitude>
+        <Longitude unit="DEGREES">13.70891</Longitude>
+        <Elevation unit="METERS">1044.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC2" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.844303</Latitude>
+      <Longitude unit="DEGREES">13.700627</Longitude>
+      <Elevation unit="METERS">1150.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:26.000000Z</CreationDate>
+      <Channel code="HHN" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHE" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHN" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHZ" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHE" startDate="2017-05-30T13:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.844303</Latitude>
+        <Longitude unit="DEGREES">13.700627</Longitude>
+        <Elevation unit="METERS">1150.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>STS-2,STS-2/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>4176820000.0</Value>
+            <Frequency>0.02</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>60077000.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="0.037016" plusError="0.037016">0.037016</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.037004" plusError="-0.037004">-0.037004</Real>
+                <Imaginary minusError="-0.037016" plusError="-0.037016">-0.037016</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="-251.33" plusError="-251.33">-251.33</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="-467.29" plusError="-467.29">-467.29</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="-131.04" plusError="-131.04">-131.04</Real>
+                <Imaginary minusError="467.29" plusError="467.29">467.29</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.02</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>2784550.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC3" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.841561</Latitude>
+      <Longitude unit="DEGREES">13.690754</Longitude>
+      <Elevation unit="METERS">1147.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:47.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.841561</Latitude>
+        <Longitude unit="DEGREES">13.690754</Longitude>
+        <Elevation unit="METERS">1147.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC4" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83432</Latitude>
+      <Longitude unit="DEGREES">13.68669</Longitude>
+      <Elevation unit="METERS">1105.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:12.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83432</Latitude>
+        <Longitude unit="DEGREES">13.68669</Longitude>
+        <Elevation unit="METERS">1105.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC5" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.828793</Latitude>
+      <Longitude unit="DEGREES">13.694742</Longitude>
+      <Elevation unit="METERS">992.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:31.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.828793</Latitude>
+        <Longitude unit="DEGREES">13.694742</Longitude>
+        <Elevation unit="METERS">992.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC6" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.82599</Latitude>
+      <Longitude unit="DEGREES">13.70791</Longitude>
+      <Elevation unit="METERS">919.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:32.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82599</Latitude>
+        <Longitude unit="DEGREES">13.70791</Longitude>
+        <Elevation unit="METERS">919.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GEC7" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83471</Latitude>
+      <Longitude unit="DEGREES">13.713505</Longitude>
+      <Elevation unit="METERS">973.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:51.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83471</Latitude>
+        <Longitude unit="DEGREES">13.713505</Longitude>
+        <Elevation unit="METERS">973.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED1" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.8516</Latitude>
+      <Longitude unit="DEGREES">13.7138</Longitude>
+      <Elevation unit="METERS">1024.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:11.000000Z</CreationDate>
+      <Channel code="HHN" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHE" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHN" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHZ" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHE" startDate="2018-10-29T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8516</Latitude>
+        <Longitude unit="DEGREES">13.7138</Longitude>
+        <Elevation unit="METERS">1024.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED2" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.8526</Latitude>
+      <Longitude unit="DEGREES">13.69518</Longitude>
+      <Elevation unit="METERS">963.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:13.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.8526</Latitude>
+        <Longitude unit="DEGREES">13.69518</Longitude>
+        <Elevation unit="METERS">963.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED3" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.84568</Latitude>
+      <Longitude unit="DEGREES">13.68086</Longitude>
+      <Elevation unit="METERS">919.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:48.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.84568</Latitude>
+        <Longitude unit="DEGREES">13.68086</Longitude>
+        <Elevation unit="METERS">919.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED4" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.837773</Latitude>
+      <Longitude unit="DEGREES">13.678704</Longitude>
+      <Elevation unit="METERS">1041.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:45.000000Z</CreationDate>
+      <Channel code="SHN" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.837773</Latitude>
+        <Longitude unit="DEGREES">13.678704</Longitude>
+        <Elevation unit="METERS">1041.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHE" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.837773</Latitude>
+        <Longitude unit="DEGREES">13.678704</Longitude>
+        <Elevation unit="METERS">1041.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.837773</Latitude>
+        <Longitude unit="DEGREES">13.678704</Longitude>
+        <Elevation unit="METERS">1041.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED5" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.82379</Latitude>
+      <Longitude unit="DEGREES">13.67969</Longitude>
+      <Elevation unit="METERS">1079.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:18.000000Z</CreationDate>
+      <Channel code="HHN" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHE" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>80.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">80.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHN" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHZ" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="BHE" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.82379</Latitude>
+        <Longitude unit="DEGREES">13.67969</Longitude>
+        <Elevation unit="METERS">1079.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>20.0</SampleRate>
+        <Sensor>
+          <Type>CMG-3T/120,CMG-3T/120/g=1500,VBB</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>522102000.0</Value>
+            <Frequency>0.04</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="0.0370296" plusError="0.0370296">0.0370296</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-0.0370184" plusError="-0.0370184">-0.0370184</Real>
+                <Imaginary minusError="-0.0370296" plusError="-0.0370296">-0.0370296</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1500.0</Value>
+              <Frequency>0.04</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">20.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>348068.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED6" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.81877</Latitude>
+      <Longitude unit="DEGREES">13.69562</Longitude>
+      <Elevation unit="METERS">1076.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:54.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.81877</Latitude>
+        <Longitude unit="DEGREES">13.69562</Longitude>
+        <Elevation unit="METERS">1076.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED7" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.819997</Latitude>
+      <Longitude unit="DEGREES">13.715016</Longitude>
+      <Elevation unit="METERS">933.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T08:59:56.000000Z</CreationDate>
+      <Channel code="SHN" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.819997</Latitude>
+        <Longitude unit="DEGREES">13.715016</Longitude>
+        <Elevation unit="METERS">933.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHE" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.819997</Latitude>
+        <Longitude unit="DEGREES">13.715016</Longitude>
+        <Elevation unit="METERS">933.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="SHZ" startDate="2018-10-28T12:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.819997</Latitude>
+        <Longitude unit="DEGREES">13.715016</Longitude>
+        <Elevation unit="METERS">933.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED8" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.83234</Latitude>
+      <Longitude unit="DEGREES">13.72505</Longitude>
+      <Elevation unit="METERS">932.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:31.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.83234</Latitude>
+        <Longitude unit="DEGREES">13.72505</Longitude>
+        <Elevation unit="METERS">932.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="GED9" startDate="1997-01-01T00:00:00.000000Z">
+      <Latitude unit="DEGREES">48.84261</Latitude>
+      <Longitude unit="DEGREES">13.722265</Longitude>
+      <Elevation unit="METERS">976.0</Elevation>
+      <Site>
+        <Name>BGR Station Geress-Array, Germany</Name>
+      </Site>
+      <CreationDate>2019-08-27T09:00:29.000000Z</CreationDate>
+      <Channel code="SHZ" startDate="1997-01-01T00:00:00.000000Z" locationCode="">
+        <Latitude unit="DEGREES">48.84261</Latitude>
+        <Longitude unit="DEGREES">13.722265</Longitude>
+        <Elevation unit="METERS">976.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <SampleRate>40.0</SampleRate>
+        <Sensor>
+          <Type>GS13,GS13/g=2000,SP</Type>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>23709800000.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description></Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>None</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="4.443" plusError="4.443">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="-4.443" plusError="-4.443">-4.443</Real>
+                <Imaginary minusError="-4.443" plusError="-4.443">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description></Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description></Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">40.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>11854900.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>
